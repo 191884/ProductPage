@@ -79,7 +79,6 @@ a:hover { text-decoration-thickness: 2px; }
   font-size: 1.2rem;
   letter-spacing: -0.01em;
 }
-.brand svg { width: 30px; height: 30px; }
 
 .nav {
   display: flex;
@@ -126,36 +125,66 @@ a:hover { text-decoration-thickness: 2px; }
 }
 .button:hover { background: #0f241f; text-decoration: none; }
 
-/* Document stack illustration */
+/* Phone stack illustration */
 .stack { position: relative; aspect-ratio: 1 / 1.05; max-width: 30rem; width: 100%; justify-self: center; }
-.sheet {
+.phone {
   position: absolute;
-  inset: 8% 14%;
-  border-radius: 22px;
+  top: 5%;
+  left: 31%;
+  width: 44%;
+  aspect-ratio: 9 / 17;
+  border-radius: 28px;
   background: var(--paper);
   border: 1.5px solid var(--line);
-  padding: 9% 10%;
+  padding: 16% 9% 9%;
   transform-origin: 50% 100%;
 }
-.sheet .bar { height: 10px; border-radius: 5px; background: var(--leaf); margin-bottom: 14px; }
-.sheet .bar.title { height: 18px; width: 55%; background: var(--sage); margin-bottom: 26px; }
-.sheet .bar.short { width: 62%; }
-.sheet .bar.mid { width: 80%; }
-.sheet .fold {
-  position: absolute; right: 0; top: 0;
-  width: 22%; aspect-ratio: 1;
-  background: var(--leaf);
-  border-bottom-left-radius: 18px;
-  border-top-right-radius: 20px;
+.phone::before {
+  content: "";
+  position: absolute; top: 5%; left: 50%;
+  width: 26%; height: 9px;
+  transform: translateX(-50%);
+  border-radius: 5px;
+  background: var(--line);
 }
-.sheet.back { background: var(--leaf); border-color: transparent; transform: rotate(-11deg) translate(-6%, 2%); }
-.sheet.middle { background: #e2ece5; border-color: transparent; transform: rotate(-4deg) translate(-2%, 1%); }
-.sheet.front { transform: rotate(5deg) translate(4%, -1%); box-shadow: 0 30px 50px -30px rgba(23, 50, 43, 0.45); }
+.phone .bar { height: 9px; border-radius: 5px; background: var(--leaf); margin-bottom: 12px; }
+.phone .bar.title { height: 14px; width: 55%; background: var(--sage); margin-bottom: 18px; }
+.phone .bar.short { width: 60%; }
+.phone .bar.mid { width: 80%; }
+.phone .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+.phone .tile { aspect-ratio: 1; border-radius: 10px; background: var(--paper); opacity: 0.8; }
+.phone .row { display: flex; align-items: center; gap: 10px; margin-bottom: 14px; }
+.phone .row .bar { flex: 1; margin: 0; }
+.phone .row .bar.short { flex: 0 0 45%; }
+.phone .row .bar.mid { flex: 0 0 60%; }
+.phone .dot { flex: none; width: 22px; height: 22px; border-radius: 50%; background: var(--sage); opacity: 0.55; }
+.phone .ring {
+  width: 70%;
+  aspect-ratio: 1;
+  margin: 4px auto 22px;
+  border-radius: 50%;
+  background: conic-gradient(var(--sage) 0 68%, var(--leaf) 0);
+  -webkit-mask: radial-gradient(farthest-side, transparent 70%, #000 71%);
+  mask: radial-gradient(farthest-side, transparent 70%, #000 71%);
+}
+.phone .home {
+  position: absolute; bottom: 4%; left: 50%;
+  width: 32%; height: 5px;
+  transform: translateX(-50%);
+  border-radius: 3px;
+  background: var(--line);
+}
+.phone.back { background: var(--leaf); border-color: transparent; transform: translate(-36%, 5%) rotate(-11deg); }
+.phone.back::before { background: var(--paper); opacity: 0.6; }
+.phone.middle { background: #e2ece5; border-color: transparent; transform: translate(-15%, 1%) rotate(-4deg); }
+.phone.middle::before { background: var(--paper); opacity: 0.7; }
+.phone.middle .bar { background: var(--paper); }
+.phone.front { transform: translate(18%, 0) rotate(6deg); box-shadow: 0 30px 50px -30px rgba(23, 50, 43, 0.45); }
 
 @media (prefers-reduced-motion: no-preference) {
-  .sheet.back { animation: fan-back 900ms cubic-bezier(.2,.8,.2,1) both; }
-  .sheet.middle { animation: fan-mid 900ms cubic-bezier(.2,.8,.2,1) both; }
-  .sheet.front { animation: fan-front 900ms cubic-bezier(.2,.8,.2,1) both; }
+  .phone.back { animation: fan-back 900ms cubic-bezier(.2,.8,.2,1) both; }
+  .phone.middle { animation: fan-mid 900ms cubic-bezier(.2,.8,.2,1) both; }
+  .phone.front { animation: fan-front 900ms cubic-bezier(.2,.8,.2,1) both; }
   @keyframes fan-back { from { transform: none; } }
   @keyframes fan-mid { from { transform: none; } }
   @keyframes fan-front { from { transform: none; } }
