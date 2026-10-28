@@ -34,7 +34,7 @@ python3 -m http.server 8000
 
 This section is inferred from the current site, not from a brief. Treat it as the default direction, and check with the user before departing from it.
 
-- **Audience:** everyday phone users who might install a Sage Lab app, plus app-store reviewers and partners checking that the studio is legitimate (hence the MSME number, privacy table and plain contact details).
+- **Audience and product truth** (users, positioning, evidence, principles) live in `PRODUCT.md`, confirmed by the user. Read it before design or copy work.
 - **Personality:** calm, honest, small and competent. Copy is short, first-person plural, and plain about ads, data and subscriptions. No hype, superlatives or startup buzzwords.
 - **Palette:** muted sage greens on an off-white mist (`--mist` page, `--paper` cards), with deep green `--ink` for text and solid surfaces. `--cobalt` is the only saturated colour. It's reserved for links and focus rings, so don't use it decoratively.
 - **Type:** Bricolage Grotesque (600–800) for display, set tight (negative letter-spacing, line-height around 1) and large via `clamp()`. Hanken Grotesk (400/600) for body at 1.0625rem/1.6. Secondary text uses `--ink-soft`, not lighter weights.
