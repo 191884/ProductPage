@@ -16,7 +16,7 @@ python3 -m http.server 8000
 
 - **Shared chrome is copied, not included.** Every page (`index.html`, `privacy.html`, `terms.html`, `404.html`) has its own copy of the `<head>` (Google Fonts link, `assets/style.css`, favicon, `theme-color`), the skip link, `.site-header` and `.site-footer`. A change to the nav, footer, fonts or contact email must be made in all four files. Pages other than the home page link back with `./#apps` and `./#contact`.
 - **Links stay relative** (`./`, `assets/...`, `privacy.html`) so the site also works when served under a subpath. Don't add root-absolute `/` paths. Canonical, OG and JSON-LD URLs in `<head>` are the exception and use `https://sagelab.in/...`.
-- **Styling** lives entirely in `assets/style.css`. Design tokens are CSS custom properties on `:root`: the palette (`--mist`, `--paper`, `--ink`, `--sage`, `--leaf`, `--cobalt`, ...) and fonts (`--display` = Bricolage Grotesque, `--body` = Hanken Grotesk). Breakpoints are 820px and 480px. Motion is gated behind `prefers-reduced-motion: no-preference`. There is no dark mode. The hero's phone mockups on the home page are pure CSS built from empty `<span>`/`<div>` elements.
+- **Styling** lives entirely in `assets/style.css`. Design tokens are CSS custom properties on `:root`: the palette (`--mist`, `--paper`, `--ink`, `--sage`, `--leaf`, `--cobalt`, ...) and fonts (`--display` = Bricolage Grotesque, `--body` = Hanken Grotesk). Breakpoints are 820px and 480px. Motion is gated behind `prefers-reduced-motion: no-preference`. The hero's phone mockups on the home page are pure CSS built from empty `<span>`/`<div>` elements.
 - **Legal pages** (`privacy.html`, `terms.html`, and `404.html`, which reuses the layout) use `main.legal > .wrap > article` with a `p.updated` date line. `privacy.html` has a third-party services table (AdMob, Firebase, AppMetrica, Adapty, Play/App Store billing). Keep it in sync with the SDKs the apps actually ship.
 
 ## When editing
@@ -38,4 +38,7 @@ This section is inferred from the current site, not from a brief. Treat it as th
 - **Motion:** minimal. One fan-out on hero load, only under `prefers-reduced-motion: no-preference`.
 - **Accessibility:** keep the skip link, visible `:focus-visible` outlines, `aria-hidden` on decorative art, and semantic landmarks on every page.
 
-Still open, because only the user can answer them: reference sites to aim toward or avoid, whether a dark mode is wanted, and how app listings should look once the apps ship. They will replace the `.empty` placeholder in `#apps`.
+- **No dark mode.** The site is light-only by decision, so don't add `prefers-color-scheme` styles.
+- **No reference sites** have been chosen to aim toward or avoid yet.
+
+Still open: how app listings should look once the apps ship. They will replace the `.empty` placeholder in `#apps`.
