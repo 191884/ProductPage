@@ -32,15 +32,10 @@ python3 -m http.server 8000
 
 ## Design context
 
-This section is inferred from the current site, not from a brief. Treat it as the default direction, and check with the user before departing from it.
+Check with the user before departing from these.
 
 - **Audience and product truth** (users, positioning, evidence, principles) live in `PRODUCT.md`, confirmed by the user. Read it before design or copy work.
-- **Personality:** calm, honest, small and competent. Copy is short, first-person plural, and plain about ads, data and subscriptions. No hype, superlatives or startup buzzwords.
-- **Palette:** muted sage greens on an off-white mist (`--mist` page, `--paper` cards), with deep green `--ink` for text and solid surfaces. `--cobalt` is the only saturated colour. It's reserved for links and focus rings, so don't use it decoratively.
-- **Type:** Bricolage Grotesque (600–800) for display, set tight (negative letter-spacing, line-height around 1) and large via `clamp()`. Hanken Grotesk (400/600) for body at 1.0625rem/1.6. Secondary text uses `--ink-soft`, not lighter weights.
-- **Shapes:** big rounded radii (22–28px on cards, pill buttons) and 1.5px hairlines in `--line`. Surfaces are flat, with a single soft shadow on the front hero phone. Illustrations are abstract CSS/SVG phone UIs drawn from the palette, never stock imagery or real app screenshots.
-- **Motion:** minimal. One fan-out on hero load, only under `prefers-reduced-motion: no-preference`.
-- **Accessibility:** keep the skip link, visible `:focus-visible` outlines, `aria-hidden` on decorative art, and semantic landmarks on every page.
+- **Visual system** (colours, type, layout, shapes, components, do's and don'ts) lives in `DESIGN.md`, with tokens in its YAML frontmatter and extras in `.impeccable/design.json`. Treat it as authoritative and regenerate both with `/impeccable document` after visual changes. Voice: calm, plain, first-person plural, with no hype.
 
 - **No dark mode.** The site is light-only by decision, so don't add `prefers-color-scheme` styles.
 - **No reference sites** have been chosen to aim toward or avoid yet.

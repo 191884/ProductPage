@@ -1,0 +1,339 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-28T11:17:08+00:00",
+  "title": "Design System: Sage Lab",
+  "extensions": {
+    "colorMeta": {
+      "deep-forest-ink": {
+        "role": "primary",
+        "displayName": "Deep Forest Ink",
+        "canonical": "oklch(29.3% 0.036 175)",
+        "tonalRamp": [
+          "oklch(15% 0.016 175)",
+          "oklch(26% 0.029 175)",
+          "oklch(38% 0.032 175)",
+          "oklch(50% 0.036 175)",
+          "oklch(62% 0.032 175)",
+          "oklch(74% 0.029 175)",
+          "oklch(85% 0.025 175)",
+          "oklch(95% 0.016 175)"
+        ]
+      },
+      "forest-night": {
+        "role": "primary",
+        "displayName": "Forest Night",
+        "canonical": "oklch(24.1% 0.029 176)",
+        "tonalRamp": [
+          "oklch(15% 0.013 176)",
+          "oklch(26% 0.023 176)",
+          "oklch(38% 0.026 176)",
+          "oklch(50% 0.029 176)",
+          "oklch(62% 0.026 176)",
+          "oklch(74% 0.023 176)",
+          "oklch(85% 0.021 176)",
+          "oklch(95% 0.013 176)"
+        ]
+      },
+      "moss-shadow": {
+        "role": "neutral",
+        "displayName": "Moss Shadow",
+        "canonical": "oklch(47.1% 0.031 172)",
+        "tonalRamp": [
+          "oklch(15% 0.014 172)",
+          "oklch(26% 0.025 172)",
+          "oklch(38% 0.028 172)",
+          "oklch(50% 0.031 172)",
+          "oklch(62% 0.028 172)",
+          "oklch(74% 0.025 172)",
+          "oklch(85% 0.022 172)",
+          "oklch(95% 0.014 172)"
+        ]
+      },
+      "sage-leaf": {
+        "role": "secondary",
+        "displayName": "Sage Leaf",
+        "canonical": "oklch(66.5% 0.042 160)",
+        "tonalRamp": [
+          "oklch(15% 0.019 160)",
+          "oklch(26% 0.034 160)",
+          "oklch(38% 0.038 160)",
+          "oklch(50% 0.042 160)",
+          "oklch(62% 0.038 160)",
+          "oklch(74% 0.034 160)",
+          "oklch(85% 0.030 160)",
+          "oklch(95% 0.019 160)"
+        ]
+      },
+      "pale-shoot": {
+        "role": "secondary",
+        "displayName": "Pale Shoot",
+        "canonical": "oklch(89.7% 0.028 155)",
+        "tonalRamp": [
+          "oklch(15% 0.013 155)",
+          "oklch(26% 0.022 155)",
+          "oklch(38% 0.025 155)",
+          "oklch(50% 0.028 155)",
+          "oklch(62% 0.025 155)",
+          "oklch(74% 0.022 155)",
+          "oklch(85% 0.020 155)",
+          "oklch(95% 0.013 155)"
+        ]
+      },
+      "lichen-whisper": {
+        "role": "neutral",
+        "displayName": "Lichen Whisper",
+        "canonical": "oklch(83.4% 0.030 160)",
+        "tonalRamp": [
+          "oklch(15% 0.013 160)",
+          "oklch(26% 0.024 160)",
+          "oklch(38% 0.027 160)",
+          "oklch(50% 0.030 160)",
+          "oklch(62% 0.027 160)",
+          "oklch(74% 0.024 160)",
+          "oklch(85% 0.021 160)",
+          "oklch(95% 0.013 160)"
+        ]
+      },
+      "morning-mist": {
+        "role": "neutral",
+        "displayName": "Morning Mist",
+        "canonical": "oklch(95.7% 0.006 154)",
+        "tonalRamp": [
+          "oklch(15% 0.003 154)",
+          "oklch(26% 0.005 154)",
+          "oklch(38% 0.005 154)",
+          "oklch(50% 0.006 154)",
+          "oklch(62% 0.005 154)",
+          "oklch(74% 0.005 154)",
+          "oklch(85% 0.004 154)",
+          "oklch(95% 0.003 154)"
+        ]
+      },
+      "field-paper": {
+        "role": "neutral",
+        "displayName": "Field Paper",
+        "canonical": "oklch(99.0% 0.002 146)",
+        "tonalRamp": [
+          "oklch(15% 0.002 146)",
+          "oklch(26% 0.002 146)",
+          "oklch(38% 0.002 146)",
+          "oklch(50% 0.002 146)",
+          "oklch(62% 0.002 146)",
+          "oklch(74% 0.002 146)",
+          "oklch(85% 0.002 146)",
+          "oklch(95% 0.002 146)"
+        ]
+      },
+      "pressed-fern-line": {
+        "role": "neutral",
+        "displayName": "Pressed Fern Line",
+        "canonical": "oklch(88.8% 0.013 160)",
+        "tonalRamp": [
+          "oklch(15% 0.006 160)",
+          "oklch(26% 0.010 160)",
+          "oklch(38% 0.012 160)",
+          "oklch(50% 0.013 160)",
+          "oklch(62% 0.012 160)",
+          "oklch(74% 0.010 160)",
+          "oklch(85% 0.009 160)",
+          "oklch(95% 0.006 160)"
+        ]
+      },
+      "signal-cobalt": {
+        "role": "tertiary",
+        "displayName": "Signal Cobalt",
+        "canonical": "oklch(48.9% 0.217 268)",
+        "tonalRamp": [
+          "oklch(15% 0.098 268)",
+          "oklch(26% 0.174 268)",
+          "oklch(38% 0.195 268)",
+          "oklch(50% 0.217 268)",
+          "oklch(62% 0.195 268)",
+          "oklch(74% 0.174 268)",
+          "oklch(85% 0.154 268)",
+          "oklch(95% 0.098 268)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero h1 only."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section h2s, max 20ch."
+      },
+      "headline-legal": {
+        "displayName": "Legal Headline",
+        "purpose": "h1 on privacy, terms and 404 pages."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Principle and empty-state h3s."
+      },
+      "lede": {
+        "displayName": "Lede",
+        "purpose": "Intro paragraph under a section headline."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "All running text; legal text capped at 68ch."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Nav, footer, metadata."
+      },
+      "label-strong": {
+        "displayName": "Label Strong",
+        "purpose": "Buttons and table headers."
+      }
+    },
+    "shadows": [
+      {
+        "name": "illustration-lift",
+        "value": "0 30px 50px -30px rgba(23, 50, 43, 0.45)",
+        "purpose": "Front hero phone only; the system's single shadow."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-fan",
+        "value": "cubic-bezier(.2,.8,.2,1)",
+        "purpose": "Hero phone fan-out, 900ms, reduced-motion gated."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "compact",
+        "value": "480px"
+      },
+      {
+        "name": "stack",
+        "value": "820px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The one solid action style: ink pill with paper text.",
+      "html": "<a class=\"ds-btn-primary\" href=\"#contact\">Get in touch</a>",
+      "css": ".ds-btn-primary { display: inline-block; background: var(--ink, #17322b); color: var(--paper, #fbfcfb); font-family: var(--body, 'Hanken Grotesk', system-ui, sans-serif); font-weight: 600; font-size: 1.0625rem; text-decoration: none; padding: 0.85rem 1.4rem; border-radius: 999px; } .ds-btn-primary:hover { background: #0f241f; } .ds-btn-primary:focus-visible { outline: 3px solid var(--cobalt, #2f4bd8); outline-offset: 3px; }"
+    },
+    {
+      "name": "Text Link",
+      "kind": "custom",
+      "refersTo": "signal-cobalt",
+      "description": "Cobalt underlined link; underline thickens on hover.",
+      "html": "<p class=\"ds-copy\">Read our <a class=\"ds-link\" href=\"privacy.html\">privacy policy</a>.</p>",
+      "css": ".ds-copy { font-family: var(--body, 'Hanken Grotesk', system-ui, sans-serif); color: var(--ink, #17322b); font-size: 1.0625rem; line-height: 1.6; } .ds-link { color: var(--cobalt, #2f4bd8); text-underline-offset: 0.18em; } .ds-link:hover { text-decoration-thickness: 2px; } .ds-link:focus-visible { outline: 3px solid var(--cobalt, #2f4bd8); outline-offset: 3px; border-radius: 4px; }"
+    },
+    {
+      "name": "Site Header",
+      "kind": "nav",
+      "refersTo": "nav-link",
+      "description": "Brand lockup left, quiet Moss Shadow text nav right.",
+      "html": "<header class=\"ds-header\"><a class=\"ds-brand\" href=\"./\"><svg width=\"30\" height=\"30\" viewBox=\"0 0 64 64\" aria-hidden=\"true\"><rect x=\"4\" y=\"4\" width=\"56\" height=\"56\" rx=\"16\" fill=\"#17322b\"/><path d=\"M17 47Q17 17 47 17Q47 47 17 47z\" fill=\"#cfe3d5\"/><path d=\"M17 47Q47 47 47 17z\" fill=\"#7e9c8b\"/><path d=\"M13 51L40 24\" stroke=\"#17322b\" stroke-width=\"2.5\" stroke-linecap=\"round\"/></svg>Sage Lab</a><nav class=\"ds-nav\"><a href=\"#about\">About</a><a href=\"#apps\" aria-current=\"page\">Apps</a><a href=\"#contact\">Contact</a></nav></header>",
+      "css": ".ds-header { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: 1.25rem; background: var(--mist, #eef2ef); } .ds-brand { display: flex; align-items: center; gap: 0.6rem; color: var(--ink, #17322b); text-decoration: none; font-family: var(--display, 'Bricolage Grotesque', system-ui, sans-serif); font-weight: 700; font-size: 1.2rem; letter-spacing: -0.01em; } .ds-nav { display: flex; gap: 1.25rem; font-family: var(--body, 'Hanken Grotesk', system-ui, sans-serif); font-size: 0.95rem; } .ds-nav a { color: var(--ink-soft, #4a6159); text-decoration: none; } .ds-nav a:hover, .ds-nav a[aria-current=\"page\"] { color: var(--ink, #17322b); text-decoration: underline; } .ds-nav a:focus-visible, .ds-brand:focus-visible { outline: 3px solid var(--cobalt, #2f4bd8); outline-offset: 3px; border-radius: 4px; }"
+    },
+    {
+      "name": "Contact Panel",
+      "kind": "card",
+      "refersTo": "contact-panel",
+      "description": "The emphatic ink surface: headline, note and a display-size email link.",
+      "html": "<section class=\"ds-contact\"><div><h2>Talk to us</h2><p>We read every email and reply within two working days.</p></div><div><a class=\"ds-contact-email\" href=\"mailto:aman@sagelab.in\">aman@sagelab.in</a></div></section>",
+      "css": ".ds-contact { background: var(--ink, #17322b); color: var(--paper, #fbfcfb); border-radius: 28px; padding: clamp(2rem, 6vw, 4rem); display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); gap: 2rem; align-items: end; font-family: var(--body, 'Hanken Grotesk', system-ui, sans-serif); } .ds-contact h2 { font-family: var(--display, 'Bricolage Grotesque', system-ui, sans-serif); font-weight: 700; font-size: clamp(2rem, 4.5vw, 3rem); line-height: 1.05; letter-spacing: -0.03em; margin: 0 0 1rem; } .ds-contact p { color: #b9cfc2; margin: 0; } .ds-contact-email { font-family: var(--display, 'Bricolage Grotesque', system-ui, sans-serif); font-weight: 700; font-size: clamp(1.4rem, 3.4vw, 2.25rem); letter-spacing: -0.02em; color: var(--paper, #fbfcfb); text-decoration: none; border-bottom: 2px solid var(--sage, #7e9c8b); overflow-wrap: anywhere; } .ds-contact-email:hover { border-bottom-color: var(--leaf, #cfe3d5); } .ds-contact-email:focus-visible { outline: 3px solid var(--leaf, #cfe3d5); outline-offset: 3px; border-radius: 4px; }"
+    },
+    {
+      "name": "Legal Article",
+      "kind": "card",
+      "refersTo": "legal-article",
+      "description": "Paper reading surface for policy pages, with a tight legal headline.",
+      "html": "<article class=\"ds-article\"><h1>Privacy policy</h1><p class=\"ds-updated\">Last updated: 27 October 2026</p><h2>Your content</h2><p>Content you create in our apps stays on your device.</p></article>",
+      "css": ".ds-article { background: var(--paper, #fbfcfb); color: var(--ink, #17322b); border-radius: 24px; padding: clamp(1.5rem, 5vw, 3.5rem); max-width: 48rem; font-family: var(--body, 'Hanken Grotesk', system-ui, sans-serif); font-size: 1.0625rem; line-height: 1.6; } .ds-article h1 { font-family: var(--display, 'Bricolage Grotesque', system-ui, sans-serif); font-weight: 800; font-size: clamp(2.25rem, 6vw, 3.5rem); letter-spacing: -0.035em; line-height: 1; margin: 0 0 0.75rem; } .ds-updated { color: var(--ink-soft, #4a6159); margin: 0 0 2rem; } .ds-article h2 { font-family: var(--display, 'Bricolage Grotesque', system-ui, sans-serif); font-size: 1.4rem; letter-spacing: -0.015em; margin: 2.25rem 0 0.5rem; } .ds-article p { max-width: 68ch; }"
+    },
+    {
+      "name": "Empty State",
+      "kind": "custom",
+      "refersTo": "empty-state",
+      "description": "Dashed sage outline marking a space waiting to be filled (Apps section).",
+      "html": "<div class=\"ds-empty\"><svg viewBox=\"0 0 64 64\" aria-hidden=\"true\"><rect x=\"14\" y=\"4\" width=\"36\" height=\"56\" rx=\"8\" fill=\"none\" stroke=\"#7e9c8b\" stroke-width=\"3\"/><rect x=\"24\" y=\"22\" width=\"16\" height=\"3\" rx=\"1.5\" fill=\"#7e9c8b\"/><rect x=\"24\" y=\"30\" width=\"16\" height=\"3\" rx=\"1.5\" fill=\"#cfe3d5\"/><rect x=\"24\" y=\"38\" width=\"10\" height=\"3\" rx=\"1.5\" fill=\"#cfe3d5\"/><rect x=\"27\" y=\"51\" width=\"10\" height=\"3\" rx=\"1.5\" fill=\"#7e9c8b\"/></svg><div><h3>Our first apps are in development</h3><p>They'll be listed here as soon as they launch.</p></div></div>",
+      "css": ".ds-empty { border: 2px dashed var(--sage, #7e9c8b); border-radius: 22px; padding: clamp(1.75rem, 5vw, 3rem); display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 1.75rem; align-items: center; color: var(--ink, #17322b); font-family: var(--body, 'Hanken Grotesk', system-ui, sans-serif); } .ds-empty svg { width: 64px; height: 64px; } .ds-empty h3 { font-family: var(--display, 'Bricolage Grotesque', system-ui, sans-serif); font-size: 1.5rem; letter-spacing: -0.02em; margin: 0 0 0.35rem; } .ds-empty p { margin: 0; color: var(--ink-soft, #4a6159); }"
+    },
+    {
+      "name": "Principles List",
+      "kind": "custom",
+      "refersTo": "pressed-fern-line",
+      "description": "Hairline-divided rows of title plus Moss Shadow body; no icons.",
+      "html": "<ul class=\"ds-principles\"><li><h3>Fast on any phone</h3><p>Our apps open quickly and stay responsive on budget devices.</p></li><li><h3>Your data stays yours</h3><p>We keep your data on your device wherever possible.</p></li></ul>",
+      "css": ".ds-principles { list-style: none; margin: 0; padding: 0; color: var(--ink, #17322b); font-family: var(--body, 'Hanken Grotesk', system-ui, sans-serif); } .ds-principles li { padding: 1.5rem 0; border-top: 1.5px solid var(--line, #d3ddd7); } .ds-principles li:last-child { border-bottom: 1.5px solid var(--line, #d3ddd7); } .ds-principles h3 { font-family: var(--display, 'Bricolage Grotesque', system-ui, sans-serif); font-size: 1.35rem; font-weight: 700; letter-spacing: -0.015em; margin: 0 0 0.35rem; } .ds-principles p { margin: 0; color: var(--ink-soft, #4a6159); }"
+    },
+    {
+      "name": "Phone Stack",
+      "kind": "custom",
+      "refersTo": "rounded.panel",
+      "description": "Signature hero illustration: three abstract palette-drawn phones fanned from the bottom.",
+      "html": "<div class=\"ds-stack\" aria-hidden=\"true\"><div class=\"ds-phone ds-back\"></div><div class=\"ds-phone ds-middle\"></div><div class=\"ds-phone ds-front\"><span class=\"ds-bar ds-title\"></span><span class=\"ds-ring\"></span><span class=\"ds-bar\"></span><span class=\"ds-bar ds-short\"></span></div></div>",
+      "css": ".ds-stack { position: relative; aspect-ratio: 1 / 1.05; width: 100%; max-width: 22rem; } .ds-phone { position: absolute; top: 5%; left: 31%; width: 44%; aspect-ratio: 9 / 17; border-radius: 28px; background: var(--paper, #fbfcfb); border: 1.5px solid var(--line, #d3ddd7); padding: 16% 9% 9%; transform-origin: 50% 100%; box-sizing: border-box; } .ds-back { background: var(--leaf, #cfe3d5); border-color: transparent; transform: translate(-36%, 5%) rotate(-11deg); } .ds-middle { background: #e2ece5; border-color: transparent; transform: translate(-15%, 1%) rotate(-4deg); } .ds-front { transform: translate(18%, 0) rotate(6deg); box-shadow: 0 30px 50px -30px rgba(23, 50, 43, 0.45); } .ds-bar { display: block; height: 9px; border-radius: 5px; background: var(--leaf, #cfe3d5); margin-bottom: 12px; } .ds-title { height: 14px; width: 55%; background: var(--sage, #7e9c8b); margin-bottom: 18px; } .ds-short { width: 60%; } .ds-ring { display: block; width: 70%; aspect-ratio: 1; margin: 4px auto 22px; border-radius: 50%; background: conic-gradient(var(--sage, #7e9c8b) 0 68%, var(--leaf, #cfe3d5) 0); -webkit-mask: radial-gradient(farthest-side, transparent 70%, #000 71%); mask: radial-gradient(farthest-side, transparent 70%, #000 71%); } @media (prefers-reduced-motion: no-preference) { .ds-back, .ds-middle, .ds-front { animation: ds-fan 900ms cubic-bezier(.2,.8,.2,1) both; } @keyframes ds-fan { from { transform: none; } } }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Quiet Workshop",
+    "overview": "Sage Lab looks like a calm, well-kept studio bench. The tools are laid out plainly, nothing is there for show, and the craft is in the details. The page is a soft field of mist and paper greens, and one confident voice speaks over it: very large, tightly set Bricolage Grotesque headlines. Everything else steps back. Body text is relaxed and readable, surfaces are flat, and colour stays inside one green family. The only exception is the cobalt that marks something you can act on.\n\nDensity is low and unhurried. Sections breathe on generous vertical padding, content sits in a single 72rem column, and each section makes one point. The hero illustration of three fanned, abstract phone screens is drawn from the same palette as the page. It suggests \"we make apps\" without showing an app that doesn't exist yet. Depth comes from tone (mist, paper, ink) rather than shadow.\n\nComponents feel **soft but sure**. Corners are generously rounded and colours are calm, but actions are solid, high-contrast and unambiguous. Nothing is tentative or ghosted.",
+    "keyCharacteristics": [
+      "One green family, from deep forest ink to near-white mist, with cobalt reserved for interaction.",
+      "Oversized, tight-tracked display type against relaxed, readable body text.",
+      "Flat tonal layering: mist page, paper cards and an ink panel for emphasis.",
+      "Big rounded corners (22–28px) and pill-shaped actions.",
+      "Abstract, palette-drawn illustration only, never photos or real screenshots.",
+      "Light theme only."
+    ],
+    "rules": [
+      {
+        "name": "The Cobalt Means Click Rule",
+        "body": "Signal Cobalt appears only on links and focus outlines. Never use it as a fill, an illustration colour or a heading colour. If it's blue, you can act on it.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Family Rule",
+        "body": "Every neutral is tinted toward green (hue around 150–175). Don't introduce pure greys, pure black or a second accent hue.",
+        "section": "colors"
+      },
+      {
+        "name": "The Weight Not Grey Rule",
+        "body": "Hierarchy comes from size and the display face, and secondary text uses Moss Shadow. Don't use lighter font weights or reduced opacity to de-emphasise text.",
+        "section": "typography"
+      },
+      {
+        "name": "The Tight Display Rule",
+        "body": "Bricolage at headline size and above always carries negative letter-spacing (−0.015em to −0.045em, getting tighter as it gets larger). Body text is never tracked.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat Surface Rule",
+        "body": "Cards, panels, buttons and articles have no shadow, at rest or on hover. If something needs to stand out, change its tone (paper to ink), not its elevation.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** keep every colour inside the green family (hue around 150–175), and use Signal Cobalt only for links and focus outlines.",
+      "**Do** set headlines in Bricolage Grotesque with negative tracking and line-height of 1.05 or less, sized with `clamp()`.",
+      "**Do** separate surfaces by tone (Mist, Paper, Ink) and divide inside them with 1.5px Pressed Fern hairlines.",
+      "**Do** use large radii (22–28px) on containers and full pills on buttons.",
+      "**Do** draw any new illustration from palette shapes (rounded bars, dots, rings, phone silhouettes) and mark it `aria-hidden`.",
+      "**Do** keep a visible `:focus-visible` outline on every interactive element, in Signal Cobalt on light surfaces and Pale Shoot on ink."
+    ],
+    "donts": [
+      "**Don't** add shadows to cards, buttons or panels. The front hero phone keeps the only one.",
+      "**Don't** add a dark theme or `prefers-color-scheme` styles. The site is light-only by decision.",
+      "**Don't** use stock photography, generic device mockups or fake app screenshots.",
+      "**Don't** introduce a second accent hue, gradients behind text, or pure black or grey.",
+      "**Don't** de-emphasise text with light weights or opacity. Use Moss Shadow (or Lichen Whisper on ink).",
+      "**Don't** add ghost or outlined buttons. There is one solid button style, and links cover everything else.",
+      "**Don't** add motion beyond the hero fan-out without gating it behind `prefers-reduced-motion: no-preference`."
+    ]
+  }
+}
