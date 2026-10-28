@@ -25,3 +25,17 @@ python3 -m http.server 8000
 - When you change a page's content, update its `<lastmod>` in `sitemap.xml`. For the privacy policy or terms, also update the "Last updated" line.
 - Business details appear in several places: the contact email `aman@sagelab.in`, Bhiwani, Haryana, and the Udyam number. They're in the page bodies, the footers and the JSON-LD block in `index.html`. Change all of them together.
 - `assets/email-logo.png` is for email signatures. Pages don't reference it.
+
+## Design context
+
+This section is inferred from the current site, not from a brief. Treat it as the default direction, and check with the user before departing from it.
+
+- **Audience:** everyday phone users who might install a Sage Lab app, plus app-store reviewers and partners checking that the studio is legitimate (hence the MSME number, privacy table and plain contact details).
+- **Personality:** calm, honest, small and competent. Copy is short, first-person plural, and plain about ads, data and subscriptions. No hype, superlatives or startup buzzwords.
+- **Palette:** muted sage greens on an off-white mist (`--mist` page, `--paper` cards), with deep green `--ink` for text and solid surfaces. `--cobalt` is the only saturated colour. It's reserved for links and focus rings, so don't use it decoratively.
+- **Type:** Bricolage Grotesque (600–800) for display, set tight (negative letter-spacing, line-height around 1) and large via `clamp()`. Hanken Grotesk (400/600) for body at 1.0625rem/1.6. Secondary text uses `--ink-soft`, not lighter weights.
+- **Shapes:** big rounded radii (22–28px on cards, pill buttons) and 1.5px hairlines in `--line`. Surfaces are flat, with a single soft shadow on the front hero phone. Illustrations are abstract CSS/SVG phone UIs drawn from the palette, never stock imagery or real app screenshots.
+- **Motion:** minimal. One fan-out on hero load, only under `prefers-reduced-motion: no-preference`.
+- **Accessibility:** keep the skip link, visible `:focus-visible` outlines, `aria-hidden` on decorative art, and semantic landmarks on every page.
+
+Still open, because only the user can answer them: reference sites to aim toward or avoid, whether a dark mode is wanted, and how app listings should look once the apps ship. They will replace the `.empty` placeholder in `#apps`.
