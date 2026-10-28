@@ -26,6 +26,10 @@ python3 -m http.server 8000
 - Business details appear in several places: the contact email `aman@sagelab.in`, Bhiwani, Haryana, and the Udyam number. They're in the page bodies, the footers and the JSON-LD block in `index.html`. Change all of them together.
 - `assets/email-logo.png` is for email signatures. Pages don't reference it.
 
+## Impeccable skill
+
+`.claude/skills/impeccable/` is a copy of the Impeccable design skill (https://github.com/pbakaus/impeccable, skill v4.8.0, engine 0.1.18), taken from that repo's `.claude/skills/impeccable`. Use it as `/impeccable <command> [target]`, e.g. `init`, `audit`, `critique` or `polish`. Its launcher, `scripts/impeccable`, downloads a checksum-verified engine binary from the repo's GitHub releases into `~/.impeccable/bin/` on first run. To update the skill, copy the folder again from upstream rather than editing it here. `/impeccable init` writes product context to `PRODUCT.md`, and `/impeccable document` writes the visual system to `DESIGN.md`. Once those files exist, they take precedence over the design context below.
+
 ## Design context
 
 This section is inferred from the current site, not from a brief. Treat it as the default direction, and check with the user before departing from it.
